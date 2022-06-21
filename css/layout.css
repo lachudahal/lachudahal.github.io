@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    align-items: center;
+}
+.mainlogo{
+    display: flex;
+    width: 100px;
+    margin-left: 500%;
+}
+.links{
+    display: flex;
+    margin-left: 40%;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 3rem;
+}
+.description{
+    display: flex;
+    margin-left: 20%;
+}
+.profile{
+    margin-left: 20%;
+    margin-top: 1rem;
+}
+.contactinfo{
+    
+    margin-left: 20%;
+    border-style: solid;
+    width: 400px;
+    padding-left: 5rem;
+    border-radius: 50px;
+    margin-top: 4rem;
+}
+.work_experience{
+    margin-left: 20%;
+    margin-top: 4rem;
+}
+.work_bodies{
+    display: grid;
+    padding-left: 20%;
+}
+.work_subbodies{
+    border-style: solid;
+    border-radius: 20px;
+    margin: 2rem;
+}
