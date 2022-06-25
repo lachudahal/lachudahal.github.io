@@ -8,30 +8,122 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <a href="/index.html"> <img src="/images/logo.jpg" class="mainlogo"></a> 
-        <nav class="links">
-            <a href="aboutme.html"> About Me</a>
-            <a href="experiences.html">Experiences</a>
-            <a href="work.html">Works</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-<main class="name">
-    <p1>Hello! I'm Lachu Dahal</p1>
-    <p2> I'm full-stack software developer</p2>
-</main>
-<img src="/images/profile.JPG" class="profile">
-    <div class="description">
-        <p> 
-            Recently graduated from The Ohio State of University majoring in Geographic Information Systems. <br>
-            Currently  attending We can code it (bootcamp) to gain more skills/knowledge on coding. 
-            </p>
+    <div class="logos">
+        <a href="https://www.linkedin.com/in/lachudahal/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/lachudahal" target="_blank"><i class="fa fa-github"></i></a>
     </div>
+    <div class="sidebar">
+        <a href="#home"><i class="fa fa-home"></i></a>
+        <p>HOME</p>
+        <a href="#aboutme"><i class="fa fa-user"></i></a>
+        <p>ABOUT ME</p>
+        <a href="#project"><i class="fa fa-pie-chart"></i></a>
+        <p>PROJECT</p>
+        <a href="/images/LachuDahal_Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+        <p>RESUME</p>
+        <a href="#contact"><i class="fa fa-address-book"></i></a>
+        <p>CONTACT</p>
+    </div>
+    <section class="home" id="home">
+        <div class="homepage-decriptioin">
+            <h1 class="display">Hello! I'm Lachu Dahal</h1>
+            <p class="dis">Full-Stack Software Developer</p>
+        </div>
+        <img src="/images/profile.JPG" class="profile">
+    </section>
 
+
+    <section class="aboutme" id="aboutme">
+
+        <div class="aboutme_text">
+            <p>ABOUT ME</p>
+            <p1>
+                My name is Lachu Dahal and I am a recent graduate from OSU. My interest in codingcame <br>
+                from taking some programming courses in college. I embrace new challenges and utilize my <br>
+                skills to the max; wheater it be at work or elsewhere.
+                <br>
+                <br>
+                I have a Bachelors of Sciecne in Geographic Information Sciecne from the Ohio State <br>
+                University with some programming knowledge through the courses I have taken. I enjoy <br>
+                coding and solving problems with logicalthinking and that is why I have
+                joined We Can Code It boot camp.
+                <br>
+                <br>
+                In my spare time, I enjoy playing soccer and video games as well as spending time with my friends <br>
+                and family.Whenever I have the chance, I do some paintings and sketches or play guitar with my friends.
+            </p1>
+        </div>
+        <div class="image">
+            <img src="/images/5F502745-1426-4F26-B26F-EE2915F4164B.PNG">
+            <img src="/images/IMG-1778.JPG">
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="container">
+            <div class="first_grid">
+                <img src="/images/virtualpet.png">
+                <p><br>Virtual Pet <br></p>
+                <p>console application that lets user create and interact with their own virutal pets in a shelter</p>
+                <p>Tools used: Java, TDD, OOP</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="second_gird">
+                <img src="/images/project.png">
+                <p><br>COTA accessibility in Columbus<br></p>
+                <p>Finding the efficiecny and accessibility of COTA Transportation</p>
+                <p>Tools used: RStudio, Shapfiles, Maps</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="third_gird">
+                <img src="/images/coming-soon.jpg">
+                <p><br>Project <br></p>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="fourth_bodie">
+                <img src="/images/coming-soon.jpg" alt="">
+                <p><br>Project<br></p>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class=contact_message>
+            <h1>CONTACT</h1>
+
+        </div>
+        <div class=contact_logo>
+            <p><i class="fa fa-map-marker"></i> Columbus, OH </p>
+            <p><i class="fa fa-phone"> Phone: 614-962-2995 </i></p>
+            <p><i class="fa fa-envelope "> </i> Email: dahallachu96@mail.com </p>
+        </div>
+        <div class="contacts_info">
+            <div class="form">
+                <form action="getInTouch" class="info">
+                    <input type="text" placeholder=" First Name" required name="First Name">
+                    <input type="text" placeholder=" Last Name" required name="Last Name">
+                    <input type="text" placeholder="Email" required name="Email">
+
+                    <div class="text_area">
+                        <textarea name="subject" placeholder="Write Something" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
     
+    </section>
 </body>
+<footer>
+        
+</footer>
 </html>
