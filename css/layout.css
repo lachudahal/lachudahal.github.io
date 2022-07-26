@@ -10,7 +10,7 @@
     height: 100%;
     position: fixed;
     top: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .sidebar a{
@@ -19,7 +19,7 @@
     padding: 50%;
     padding-left: 0%;
     transition: all 0.3s ease;
-    font-size: 70px;
+    font-size: 60px;
     color: white;
     text-decoration: none
 }
@@ -27,7 +27,6 @@
 .sidebar a:hover{
     background-color:rgb(206, 201, 201);
 }
-
 .home{
     display: flex;
     flex-direction: column;
@@ -39,6 +38,7 @@
     color: white;
     font-size: large;
 }
+
 .aboutme{
     display: flex;
     flex-direction: row;
@@ -63,8 +63,8 @@
     color: white;
     font-size: large;
     display: grid;
-    grid-template-columns: repeat(2, 4fr);
-    padding-top: 70px;
+    grid-template-columns: repeat(3, 4fr);
+    padding-top: 10px;
 }
 .container > div{
    display: flex;
@@ -89,7 +89,6 @@
   padding-top: 2px;
 }
 input[type=text], select, textarea {
-    
     width: 70%;
     border-radius: 4px;
     margin-top: 8px;
