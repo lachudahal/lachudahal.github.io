@@ -5,7 +5,7 @@
 }
 
 .sidebar{
-    width: 90px;
+    width: 80px;
     background-color:black;
     height: 100%;
     position: fixed;
@@ -19,9 +19,9 @@
     padding: 50%;
     padding-left: 0%;
     transition: all 0.3s ease;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .sidebar a:hover{
@@ -58,12 +58,12 @@
     font-size: xx-large;
 }
 .project{
-    width: 100%;
+    width: 90%;
     height: 100vh;
     color: white;
     font-size: large;
     display: grid;
-    grid-template-columns: repeat(3, 4fr);
+    grid-template-columns: repeat(2, 4fr);
     padding-top: 10px;
 }
 .container > div{
